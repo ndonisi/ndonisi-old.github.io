@@ -7,12 +7,17 @@ body {
   font-size: 20px;
 }
 
-h1,
-h2,
-h3 {
-  font-size: 36px;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+h1 {
+ color: blue;
+ font-family: "Lucida Console", Monaco, monospace;
+ text-shadow: 2px 2px 2px #63114a;
 }
+h2, {
+}
+h3 {
+  font-size: 24px;
+  font-family: "Lucida Console", Monaco, monospace;
+  }
 main,
 header h1,
 nav div {
@@ -24,11 +29,16 @@ header {
 }
 nav a {
   padding-right: 20px;
+  color: cyan;
 }
 nav a:hover {
-  color: #333;
+  color: rgb(3, 99, 243);
 }
 nav {
-  background-color: #ccc;
+  background: #7119A4;
+background: -moz-linear-gradient(left, #7119A4 0%, #CB42BF 50%, #097567 100%);
+background: -webkit-linear-gradient(left, #7119A4 0%, #CB42BF 50%, #097567 100%);
+background: linear-gradient(to right, #7119A4 0%, #CB42BF 50%, #097567 100%);
   padding: 12px;
 }
+  
