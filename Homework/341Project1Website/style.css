@@ -5,16 +5,12 @@ body {
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 20px;
-  background-image: url('341homepagebackgroundplant.jpg');
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
  
 h1 {
- color: blue;
+ color: magenta;
  font-family: "Lucida Console", Monaco, monospace;
- font-size: 64px;
+ font-size: 18px;
  text-shadow: 2px 2px 2px #63114a;
 }
 
@@ -26,9 +22,11 @@ h2, {
 
 h3 {
   color: #FFF;
-  background-color: #232323;
   text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18
   }
+
+
+
 main,
 header h1,
 nav div {
@@ -41,20 +39,15 @@ header {
 nav a {
   padding-right: 20px;
   color: cyan;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 16px
+  
 }
 nav a:hover {
   color: rgb(3, 99, 243);
 }
-nav {
-  background: cyan;
-background: -moz-linear-gradient(left, #7119A4 0%, #CB42BF 50%, #097567 100%);
-background: -webkit-linear-gradient(left, #7119A4 0%, #CB42BF 50%, #097567 100%);
-background: linear-gradient(to right, #7119A4 0%, #CB42BF 50%, #097567 100%);
-  padding: 12px;
-}
 
 #neontext {
   color: #FFF;
-  background-color: #232323;
   text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18
   }
