@@ -1,0 +1,53 @@
+/* -------------------------------------- *
+General Styles
+* --------------------------------------- */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+ 
+h1 {
+ color: magenta;
+ font-family: "Lucida Console", Monaco, monospace;
+ font-size: 18px;
+ text-shadow: 2px 2px 2px #63114a;
+}
+
+h2, { 
+  color:magenta;
+  font-size: 16px;
+  font-family: "Lucida Console", Monaco, monospace;
+}
+
+h3 {
+  color: #FFF;
+  text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18
+  }
+
+
+
+main,
+header h1,
+nav div {
+  width: 85%;
+  margin: auto;
+}
+header {
+  padding: 40px 0;
+}
+nav a {
+  padding-right: 20px;
+  color: cyan;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 16px
+  
+}
+nav a:hover {
+  color: rgb(3, 99, 243);
+}
+
+#neontext {
+  color: #FFF;
+  text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18
+  }
