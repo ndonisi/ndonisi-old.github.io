@@ -47,9 +47,9 @@ nav a:hover {
 }
 nav {
   background: cyan;
-background: -moz-linear-gradient(left, #7119A4 0%, #CB42BF 50%, #097567 100%);
-background: -webkit-linear-gradient(left, #7119A4 0%, #CB42BF 50%, #097567 100%);
-background: linear-gradient(to right, #7119A4 0%, #CB42BF 50%, #097567 100%);
+  background: -moz-linear-gradient(left, #7119A4 0%, #CB42BF 50%, #097567 100%);
+  background: -webkit-linear-gradient(left, #7119A4 0%, #CB42BF 50%, #097567 100%);
+  background: linear-gradient(to right, #7119A4 0%, #CB42BF 50%, #097567 100%);
   padding: 12px;
 }
 
@@ -59,24 +59,27 @@ background: linear-gradient(to right, #7119A4 0%, #CB42BF 50%, #097567 100%);
   text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18
   }
 
-  #right-wheel {
-    animation: wheel is ease infinite linear;
-    transform-origin center;
-    transform-box: fill-box;
-  }
+#right-wheel,
+#left-wheel {
+  animation: wheel 2s infinite linear;
+  transform-origin: center;
+  transform-box: fill-box;
+}
   
-  @keyframes wheel {
-    from {
-      transform: rotateZ(0deg);
-    }
-    to {
-      transform: rotateZ(360deg);
-    }
+@keyframes wheel {
+  from {
+    transform: rotateZ(0deg);
   }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
 #man-bike {
-  animation:is ease-in-out infinite alternate;
+  animation: bike 1s ease-in-out infinite alternate;
   transform-origin: bottom;
 }
+
 @keyframes bike {
   from {
     transform: rotateX(0deg);
