@@ -25,8 +25,6 @@ h3 {
   text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18
   }
 
-
-
 main,
 header h1,
 nav div {
@@ -67,48 +65,31 @@ nav a:hover {
       transform: rotateZ(360deg);
     }
   }
-
-#man-bike{
-
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  background-color: cyan;
 }
-
-nav ul {
-	list-style-type: none;
-	padding: 0;
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
 }
-
-nav ul li {
-	font-size: 40px;
-	font-family: sans-serif;
-	background-color: white;
-	border: 2px solid black;
-	letter-spacing: 0.1em;
-	width: 5em;
-	height: 1.5em;
-	line-height: 1.5em;
-	position: relative;
-	overflow: hidden;
-	margin: 0.5em;
-	cursor: pointer;
-}
-
-nav ul li span {
-	color: white;
-	mix-blend-mode: difference;
-}
-
-nav ul li::before {
-	content: '';
-	position: absolute;
-	width: 1.5em;
-	height: inherit;
-	background-color: black;
-	border-radius: 50%;
-	top: 0;
-	left: -0.75em;
-	transition: 0.5s ease-out;
-}
-
-nav ul li:hover::before {
-	transform: scale(7);
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
 }

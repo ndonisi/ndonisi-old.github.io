@@ -2,17 +2,84 @@
 <html lang="en"></html>
 <head>
     <meta name="viewport" content=width=device-width, initial-scale=1.0/>
+    <style>
+      body {
+        font-family: "Lato", sans-serif;
+      }
+      
+      .sidebar {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+      }
+      
+      .sidebar a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+      }
+      
+      .sidebar a:hover {
+        color: #f1f1f1;
+      }
+      
+      .sidebar .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+      
+      .openbtn {
+        font-size: 20px;
+        cursor: pointer;
+        background-color: #111;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+      }
+      
+      .openbtn:hover {
+        background-color: #444;
+      }
+      
+      #main {
+        transition: margin-left .5s;
+        padding: 16px;
+      }
+      
+      @media screen and (max-height: 450px) {
+        .sidebar {padding-top: 15px;}
+        .sidebar a {font-size: 18px;}
+      }
+      </style>
     <link rel="stylesheet" href="style.css"/>
     <title>Feral Cat Coalition</title>
 </head>
 <body>
-  <nav>
-    <ul>
-      <li><span>Home</span></li>
-      <li><span>Products</span></li>
-      <li><span>Services</span></li>
-      <li><span>Contact</span></li>
-    </ul>
+  <div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#">Services</a>
+    <a href="#">Volunteer</a>
+    <a href="#">Why Trap-Neuter-Return</a>
+    <a href="#">Catio Tour 2020</a>
+  </div>
+  <div id="main">
+    <button class="openbtn" onclick="openNav()">&#9776; Open Sidebar</button>
+    <h2>Menu</h2>
+    <p>Content...</p>
+  </div>
   <div class="jumbotron text-center">
     <h1>Feral Cat Coalition of Oregon</h1>
     <p>Celebrating 25 years of helping over 100,000 cats and their caregivers</p>
@@ -25,19 +92,7 @@
         <h3>Column 1</h3>
         <p>Lorem ipsum dolor..</p>
       </div>
-      <div class="col-sm-4"
-        float: right;
-    text-align: right;
-    width: auto;></div>
-        <h3>Column 2</h3>
-        <float:right></float:right><p><img src="cyan rectangle-02.png" alt="Placeholder" width="70" height="600" /></p> </float:right>
-        <p>Lorem ipsum dolor..</p>
-      </div>
-      <div class="col-sm-4">
-        <h3>Column 3</h3>
-        <p>Lorem ipsum dolor..</p>
-      </div>
-    </div>
+   </div>
   </div>
 </nav>
   </body>
