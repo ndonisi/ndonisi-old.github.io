@@ -1,0 +1,149 @@
+/* -------------------------------------- *
+General Styles
+* --------------------------------------- */
+body {
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 9px;
+  height: 100vh
+}
+ 
+title {
+  color: black
+  font-family: "Courier New", Courier, monospace;
+}
+
+h1 {
+ color: white;
+ font-family: "Lucida Console", Monaco, monospace;
+ font-size: 18px;
+ text-shadow: 2px 2px 2px #63114a;
+}
+
+h2 { 
+  color:magenta;
+  font-size: 38px;
+  font-family: "Franklin Gothic ATF";
+  font-weight: "medium";
+  font-size:6vw;
+}
+
+h3 {
+  font-family: "Franklin Gothic ATF";
+  font-weight: "medium";color: black;
+  font-size: 18px
+  }
+
+h4 {
+  font-family: "Courier New", Courier, monospace;
+  color: black;
+  font-size: 12px;
+}
+
+main,
+header h1,
+nav div {
+  width: 85%;
+  margin: auto;
+}
+header {
+  padding: 40px 0;
+}
+nav a {
+  padding-right: 20px;
+  color: cyan;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 16px
+  
+}
+nav a:hover {
+  color: rgb(3, 99, 243);
+}
+
+  .sidepanel {
+    height: 250px;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+  }
+
+  .sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+
+.sidepanel a:hover {
+    color: cyan;
+  }
+
+.sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  .openbtn:hover {
+    background-color: #444;
+  } 
+
+  @keyframes wiggle {
+    0% { transform: rotate(0deg); }
+   80% { transform: rotate(0deg); }
+   85% { transform: rotate(5deg); }
+   95% { transform: rotate(-5deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.feedfixbox.wiggle {
+  display: inline-block;
+  animation: wiggle 2.5s infinite;
+}
+
+.feedfixbox.wiggle:hover {
+  animation: none;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 12%;
+  width: 100%;
+  background-color: cyan;
+  color: white;
+  text-align: center;
+}
+
+.button {
+  align: center;
+  color: black;
+  background-color: yellow;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  border-radius: 16px;
+  border-width: 5px;
+}
+
