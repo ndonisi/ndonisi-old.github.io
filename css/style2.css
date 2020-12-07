@@ -53,10 +53,31 @@ h5 {
 
 }
 
+h6 {
+  color: black;
+  font-size: 38px;
+  font-family: "Franklin Gothic ATF";
+  font-weight: "medium";
+  font-size:6vw;
+  padding: 0px 0px 0px 10px;
+  }
+
+  h7 {
+    color: black;
+    font-size: 38px;
+    font-family: "BasicSharpie";
+    padding: 0px 0px 0px 10px;
+    }
+
 .container {
   background-color: black;
   font-color: cyan;
   padding-bottom: 30px;
+}
+
+h8 {
+  font-family: "BasicSharpie";
+  font-size: 8vw;
 }
 
 main,
@@ -221,8 +242,12 @@ nav a:hover {
 
 #moveimg img {
   position: absolute;
-  top: 150px;
+  top: 290px;
   left: -404px;
   z-index: 7;
   animation: move 5s;
+}
+
+.textbody {
+  padding: 70px;
 }
