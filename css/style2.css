@@ -4,7 +4,7 @@ General Styles
 body {
   margin: 0;
   font-family: "Courier New", Courier, monospace;
-  font-size: 9px;
+  font-size: 16px;
   height: 100vh
 }
  
@@ -21,7 +21,7 @@ h1 {
 }
 
 h2 { 
-  color:magenta;
+  color: black;
   font-size: 38px;
   font-family: "Franklin Gothic ATF";
   font-weight: "medium";
@@ -38,6 +38,16 @@ h4 {
   font-family: "Courier New", Courier, monospace;
   color: black;
   font-size: 12px;
+}
+
+h5 {
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: normal;
+  font-size: 2vw;
+  font-style: italic;
+  padding: 40px 0;
+
 }
 
 main,
@@ -147,3 +157,11 @@ nav a:hover {
   border-width: 5px;
 }
 
+.blackborder {
+  background-color: white;
+  width: 300px;
+  border: 8px solid black;
+  padding: 50px;
+  margin: 20px;
+  align: center
+}
