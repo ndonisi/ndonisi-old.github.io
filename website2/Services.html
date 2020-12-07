@@ -14,31 +14,8 @@
         font-family: "Lato", sans-serif;
       }
       
-      .sidepanel  {
-        width: 0;
-        position: fixed;
-        z-index: 1;
-        height: 250px;
-        top: 0;
-        left: 0;
-        background-color: #111;
-        overflow-x: hidden;
-        transition: 0.5s;
-        padding-top: 60px;
-      }
-      
-      .sidepanel a {
-        padding: 8px 8px 8px 32px;
-        text-decoration: none;
-        font-size: 25px;
-        color: #818181;
-        display: block;
-        transition: 0.3s;
-      }
-      
-      .sidepanel a:hover {
-        color: #f1f1f1;
-      }
+    
+    }
       
       .sidepanel .closebtn {
         position: absolute;
@@ -65,12 +42,13 @@
       <div id="mySidepanel" class="sidepanel">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
         <a href="Services.html">Services</a>
-        <a href="#">Why Trap-Neuter-Return?</a>
-        <a href="#">Volunteer</a>
-        <a href="#">Catio Tour 2020</a>
+        <a href="Why Trap-Neuter-Return.html">Why Trap-Neuter-Return?</a>
+        <a href="Volunteer.html">Volunteer</a>
+        <a href="Catio-Tour-2020.html">Catio Tour 2020</a>
+        <a href="FCCOHome.html">Home</a>
       </div>
-      
-      <button class="openbtn" onclick="openNav()">☰ Menu</button> 
+    
+      <button class="openbtn" onclick="openNav()">☰ Menu</button>  
       <script>
       function openNav() {
         document.getElementById("mySidepanel").style.width = "250px";
@@ -80,17 +58,23 @@
         document.getElementById("mySidepanel").style.width = "0";
       }
       </script>
-  <link rel="stylesheet" href="style.css"/>
-    <title>Services</title>
+  <link rel="stylesheet" href="../css/style2.css"/>
+    <title>Feral Cat Coalition</title>
 </head>
 <body>
+  <body style="background-color: white;"></body>
   <div class="container">
     <h2> Feral Cat Coalition of Oregon</h2>
-    <em>Celebrating 25 years of helping 100,000+ cats and caregivers</em>
+    <h5>Celebrating 25 years of helping 100,000+ cats and caregivers</h5>
+    </div>
+    <div>
+    <p id="homeimage"><img src="website2images/Grouped-home-image.png" alt="PictureofFeralCatCollage" width=70% height=70%/></p>
+    </div>
     <div class="row"></div>
-    <p><img src="website2images/FCCOlogoeartip-01.png" alt="feralcatheadlogo" width="65%" height="75%"/></p>
+    <p><img src="website2images/FCCOlogoeartip-01.png" alt="feralcatheadlogo" width="45%" height="45%"/></p>
     <h3>These services are for feral or stray cats only.</h3>
-      <p>Feral/Stray cats are trapped, brought to our clinic and returned to the area where they are being fed by caregivers. These services are provided for a suggested donation of $40 per cat, though no cat is turned away for non-payment.</p>
+      <p>Feral/Stray cats are trapped, brought to our clinic and returned to the area where they are being fed by caregivers.</p>
+        <p>These services are provided for a suggested donation of $40 per cat, though no cat is turned away for non-payment.</p>
       <div class="col-sm-4">
         <h3>FERAL AND STRAY CAT SERVICES</h3>
         <ul>
