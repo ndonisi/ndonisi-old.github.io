@@ -4,9 +4,9 @@ General Styles
 body {
   margin: 0;
   font-family: "Courier New", Courier, monospace;
-  font-size: 16px;
-  height: 100vh
+  font-size: 2vh;
 }
+
  
 title {
   color: black
@@ -21,11 +21,12 @@ h1 {
 }
 
 h2 { 
-  color: black;
+  color: white;
   font-size: 38px;
   font-family: "Franklin Gothic ATF";
   font-weight: "medium";
   font-size:6vw;
+  padding: 0px 0px 0px 10px;
 }
 
 h3 {
@@ -37,17 +38,24 @@ h3 {
 h4 {
   font-family: "Courier New", Courier, monospace;
   color: black;
-  font-size: 12px;
+  font-size: 10px;
 }
 
 h5 {
   margin: 0;
+  color: cyan;
   font-family: "Courier New", Courier, monospace;
   font-weight: normal;
   font-size: 2vw;
   font-style: italic;
-  padding: 40px 0;
+  padding: 10px 0;
 
+}
+
+.container {
+  background-color: black;
+  font-color: cyan;
+  padding-bottom: 30px;
 }
 
 main,
@@ -137,7 +145,7 @@ nav a:hover {
   position: fixed;
   left: 0;
   bottom: 0;
-  height: 12%;
+  height: 19h;
   width: 100%;
   background-color: cyan;
   color: white;
@@ -148,13 +156,14 @@ nav a:hover {
   align: center;
   color: black;
   background-color: yellow;
-  padding: 10px 20px;
+  padding: 10px 10px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  margin: 4px 2px;
+  margin: 2px 1px;
   border-radius: 16px;
-  border-width: 5px;
+  border-width: 4px;
+
 }
 
 .blackborder {
@@ -163,5 +172,19 @@ nav a:hover {
   border: 8px solid black;
   padding: 50px;
   margin: 20px;
-  align: center
+  align: center;
+}
+
+.hometext {
+  padding-left: 25px;
+  padding-right:25px;
+  float: right;
+}
+
+  #homeimage {
+    display:flex;
+  }
+
+.gallery {
+ padding: 0px;
 }
